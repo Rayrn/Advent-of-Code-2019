@@ -26,6 +26,7 @@
         "overtrue/phplint": "^1.1"
     },
     "scripts": {
+        "check-coverage": "vendor/bin/phpunit --coverage-html build --whitelist src && open build/index.html",
         "run-tests": "composer run-phpunit && composer run-phpcs && composer run-phpmd && composer run-phplint",
         "run-phpcs": "vendor/bin/phpcs",
         "run-phpmd": "vendor/bin/phpmd src text phpmd-src.xml --exclude src/Migrations/ && vendor/bin/phpmd tests text phpmd-tests.xml",

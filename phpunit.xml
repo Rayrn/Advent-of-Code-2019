@@ -14,17 +14,13 @@
 
     <testsuites>
         <testsuite name="Code vs Zombies Suite">
-            <directory>code-vs-zombies/tests</directory>
-        </testsuite>
-        <testsuite name="Legends of Code Magic Suite">
-            <directory>legends-of-code-magic/tests</directory>
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
 
     <filter>
         <whitelist>
-            <directory>code-vs-zombies/src</directory>
-            <directory>legends-of-code-magic/src</directory>
+            <directory>src</directory>
         </whitelist>
     </filter>
 </phpunit>

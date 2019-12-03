@@ -2,7 +2,7 @@
 
 namespace AdventOfCode\TwentyNineteen\Tests\OneA;
 
-use dventOfCode\TwentyNineteen\OneA\FuelCalculator;
+use AdventOfCode\TwentyNineteen\OneA\FuelCalculator;
 use PHPUnit\Framework\TestCase;
 
 class FuelCalculatorTest extends TestCase
