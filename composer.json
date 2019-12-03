@@ -1,5 +1,5 @@
 {
-    "name": "rayrn/Advent-of-Code-2019",
+    "name": "rayrn/advent-of-code-2019",
     "description": "Advent of Code 2019",
     "type": "project",
     "license": "MIT",
@@ -11,18 +11,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "AdventOfCode\\TwentyNineteen\\OneA": "src/01A",
+            "AdventOfCode\\TwentyNineteen\\OneA\\": "src/01A"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AdventOfCode\\TwentyNineteen\\Tests\\OneA": "tests/01A",
+            "AdventOfCode\\TwentyNineteen\\Tests\\OneA\\": "tests/01A"
         }
     },
     "require-dev": {
         "phpunit/phpunit": "^8.2",
         "phpmd/phpmd": "^2.6",
-        "phpunit/phpunit": "^7",
         "squizlabs/php_codesniffer": "^3.3",
         "overtrue/phplint": "^1.1"
     },
