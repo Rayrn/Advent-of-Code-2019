@@ -13,14 +13,22 @@
         "psr-4": {
             "AdventOfCode\\TwentyNineteen\\": "src",
             "AdventOfCode\\TwentyNineteen\\OneA\\": "src/01A",
-            "AdventOfCode\\TwentyNineteen\\OneB\\": "src/01B"
+            "AdventOfCode\\TwentyNineteen\\OneB\\": "src/01B",
+            "AdventOfCode\\TwentyNineteen\\TwoA\\": "src/02A",
+            "AdventOfCode\\TwentyNineteen\\TwoB\\": "src/02B",
+            "AdventOfCode\\TwentyNineteen\\ThreeA\\": "src/03A",
+            "AdventOfCode\\TwentyNineteen\\ThreeB\\": "src/03B"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "AdventOfCode\\TwentyNineteen\\Tests\\": "tests",
             "AdventOfCode\\TwentyNineteen\\Tests\\OneA\\": "tests/01A",
-            "AdventOfCode\\TwentyNineteen\\Tests\\OneB\\": "tests/01B"
+            "AdventOfCode\\TwentyNineteen\\Tests\\OneB\\": "tests/01B",
+            "AdventOfCode\\TwentyNineteen\\Tests\\TwoA\\": "tests/02A",
+            "AdventOfCode\\TwentyNineteen\\Tests\\TwoB\\": "tests/02B",
+            "AdventOfCode\\TwentyNineteen\\Tests\\ThreeA\\": "tests/03A",
+            "AdventOfCode\\TwentyNineteen\\Tests\\ThreeB\\": "tests/03B"
         }
     },
     "require": {

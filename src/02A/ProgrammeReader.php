@@ -56,7 +56,7 @@ class ProgrammeReader implements IteratorAggregate
         try {
             $fileContents = $this->parser->parseFile($this->fileLocation);
 
-            $this->fileContents = array_map('intval', explode',', $fileContents));
+            $this->fileContents = array_map('intval', explode(',', $fileContents));
         } catch (ParseException $e) {
             $this->fileContents = [];
         }

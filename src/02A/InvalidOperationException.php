@@ -4,6 +4,6 @@ namespace AdventOfCode\TwentyNineteen\TwoA;
 
 use Exception;
 
-class UnknownOptCodeException extends Exception
+class InvalidOperationException extends Exception
 {
 }
