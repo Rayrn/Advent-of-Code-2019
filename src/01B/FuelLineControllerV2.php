@@ -23,7 +23,7 @@ class FuelLineControllerV2
     }
 
     /**
-     * Calculate the combined fuel required for the module list
+     * Calculate the combined fuel required for the modules (accounting for fuel)
      */
     public function calculateFuel(): int
     {
