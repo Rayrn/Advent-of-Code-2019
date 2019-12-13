@@ -19,8 +19,8 @@ class Runner extends Container
     {
         $output = [];
 
-        $oneA = $this->get(OneA\FuelLineController::class);
-        $output['oneA'] = $oneA->calculateFuel();
+        $output['oneA'] = $this->get(OneA\FuelLineController::class)->calculateFuel();
+        $output['oneB'] = $this->get(OneB\FuelLineControllerV2::class)->calculateFuel();
 
         print_r($output);
     }

@@ -12,12 +12,15 @@
     "autoload": {
         "psr-4": {
             "AdventOfCode\\TwentyNineteen\\": "src",
-            "AdventOfCode\\TwentyNineteen\\OneA\\": "src/01A"
+            "AdventOfCode\\TwentyNineteen\\OneA\\": "src/01A",
+            "AdventOfCode\\TwentyNineteen\\OneB\\": "src/01B"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AdventOfCode\\TwentyNineteen\\Tests\\OneA\\": "tests/01A"
+            "AdventOfCode\\TwentyNineteen\\Tests\\": "tests",
+            "AdventOfCode\\TwentyNineteen\\Tests\\OneA\\": "tests/01A",
+            "AdventOfCode\\TwentyNineteen\\Tests\\OneB\\": "tests/01B"
         }
     },
     "require": {

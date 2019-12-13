@@ -25,7 +25,7 @@ class FuelLineController
      */
     public function calculateFuel(): int
     {
-        $this->moduleList->setFileLocation(__DIR__ . '/module-list.yaml');
+        $this->moduleList->setFileLocation(APP_ROOT . '/src/01A/module-list.yaml');
 
         $fuel = 0;
         foreach ($this->moduleList as $module) {
